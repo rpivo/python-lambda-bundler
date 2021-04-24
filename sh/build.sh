@@ -1,8 +1,8 @@
 # prepare environment
-yum update -y;
-yum install -y zip;
-amazon-linux-extras install -y python3.8;
-python3.8 -m pip install -U pip;
+yum update -y
+yum install -y zip
+amazon-linux-extras install -y python3.8
+python3.8 -m pip install -U pip
 
 # install python dependencies
 # Ex: pip3 install pytrends --target ./bind-mount/package --upgrade;
